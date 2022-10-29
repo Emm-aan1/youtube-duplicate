@@ -1,4 +1,4 @@
-@media screen {
+@media (min-width: 700px) {
   .sidebar .fa {
     display: block;
     margin-top: 20px;
