@@ -1,0 +1,52 @@
+@media screen {
+  .sidebar .fa {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -80px;
+    opacity: 0.8;
+  }
+
+  /*    Videos Section  */
+  .video-grid {
+    margin-left: -75px;
+  }
+
+  .video-info-grid {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+  }
+
+
+  .profile-picture {
+    width: 25px;
+    border-radius: 50%;
+  }
+
+  .video-title {
+    margin-bottom: 8px;
+    font-size: 8px;
+    font-weight: bolder;
+    line-height: 10px;
+  }
+
+  .video-author,
+  .video-stats {
+    width: 100px;
+    font-size: 8px;
+  }
+
+  .video-grid {
+    column-gap: 15px;
+    row-gap: 20px;
+  }
+
+  .video-time {
+    font-size: 8px;
+  }
+}
