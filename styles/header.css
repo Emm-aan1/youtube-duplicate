@@ -21,8 +21,7 @@
 
 .hamburger-menu {
   height: 20px;
-  margin-left: 24px;
-  margin-right: 24px;
+  margin: 0 24px;
 }
 
 .youtube-logo {
@@ -111,7 +110,10 @@
   background-color: rgb(244, 244, 244);
 }
 
-.voice-search-icon {
+.voice-search-icon,
+.upload-icon,
+.youtube-app-icon,
+.notification-icon {
   height: 24px;
 }
 
@@ -122,18 +124,6 @@
   align-items: center;
   justify-content: space-between;
   flex-shrink: 0;
-}
-
-.upload-icon {
-  height: 24px;
-}
-
-.youtube-app-icon {
-  height: 24px;
-}
-
-.notification-icon {
-  height: 24px;
 }
 
 .notifications-icon-container {

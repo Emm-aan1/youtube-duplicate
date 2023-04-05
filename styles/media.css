@@ -1,0 +1,108 @@
+@media (max-width: 750px) {
+  .hamburger-menu {
+    width: 95%;
+    margin: 0 10px;
+  }
+
+  .youtube-logo {
+    width: 60px;
+    padding-left: 17px;
+  }
+
+  .search-bar {
+    height: 25px;
+    padding-left: 9px;
+    width: 20px;
+    margin-left: -20px;
+  }
+
+  .search-bar::placeholder {
+    font-size: 11px;
+  }
+
+  .search-button {
+    height: auto;
+    width: 30%;
+    margin-right: 5px;
+    border-radius: 2px;
+  }
+
+  .search-icon {
+    width: 18px;
+  }
+
+  .voice-search-button {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(236, 235, 235);
+  }
+
+  .right-section {
+    margin-right: 15px;
+    flex-shrink: 1;
+  }
+
+  .upload-icon,
+  .youtube-app-icon,
+  .notification-icon {
+    width: 85%;
+  }
+
+  .current-user-picture {
+    height: 25px;
+    border-radius: 50%;
+  }
+
+
+  /* side bar secton */
+  .sidebar .fa {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -80px;
+    opacity: 0.8;
+  }
+
+
+  /*    Videos Section  */
+  .video-grid {
+    margin-left: -75px;
+  }
+
+  .video-info-grid {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+  }
+
+
+  .profile-picture {
+    width: 25px;
+    border-radius: 50%;
+  }
+
+  .video-title {
+    margin-bottom: 8px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .video-author,
+  .video-stats {
+    width: 100px;
+    font-size: 10px;
+  }
+
+  /* .video-grid {
+    column-gap: 15px;
+    row-gap: 5px;
+  } */
+
+  .video-time {
+    font-size: 10px;
+  }
+}
